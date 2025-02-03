@@ -1,0 +1,21 @@
+{
+  "name": "preparation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "mysql2": "^3.12.0",
+    "sequelize": "^6.37.5"
+  }
+}

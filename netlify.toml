@@ -1,2 +1,7 @@
 [build]
   functions = "netlify/functions"
+
+[dev]
+  command = "npm run dev"  # If you're using a script to start your app
+  port = 8888
+  targetPort = 3000  # This should be the port your server is running on
